@@ -1,16 +1,20 @@
 :root {
     --background: black !important;
     --background-secondary: #292929 !important;
-    --font-color: brown !important;
+    --font-color: rgb(255, 255, 255) !important;
     --background-color: black !important;
   }
+
+#page-body div {
+    background: aqua !important;
+}
 
 :host {
     --background-color: black !important;
 }
 body {
     color: rgb(37, 54, 206);
-    background: grey !important;
+    background: #191D32 !important;
 }
 
 #left-menu {
@@ -22,15 +26,15 @@ body {
     background: rgb(44, 44, 44) !important;
 }
 
-div{
+div {
     background: rgb(44, 44, 44) !important;
-    color: palegreen !important;
+    color: #ffffff !important;
 }
 
 section {
-    background: red !important;
+    background: #292929 !important;
 }
 
 .NaSkroty {
-    background: rgb(109, 0, 94) !important;
+    background: #282f44 !important;
 }

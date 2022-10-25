@@ -1,0 +1,36 @@
+:root {
+    --background: black !important;
+    --background-secondary: #292929 !important;
+    --font-color: brown !important;
+    --background-color: black !important;
+  }
+
+:host {
+    --background-color: black !important;
+}
+body {
+    color: rgb(37, 54, 206);
+    background: grey !important;
+}
+
+#left-menu {
+    background: #474747 !important;
+    color:aquamarine !important;
+}
+
+#ul {
+    background: rgb(44, 44, 44) !important;
+}
+
+div{
+    background: rgb(44, 44, 44) !important;
+    color: palegreen !important;
+}
+
+section {
+    background: red !important;
+}
+
+.NaSkroty {
+    background: rgb(109, 0, 94) !important;
+}

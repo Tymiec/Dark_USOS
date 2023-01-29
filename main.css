@@ -1,40 +1,19 @@
-:root {
+:root { 
     --background: black !important;
     --background-secondary: #292929 !important;
     --font-color: rgb(255, 255, 255) !important;
     --background-color: black !important;
-  }
+  } /* zmiana zmiennych */
 
-#page-body div {
-    background: aqua !important;
-}
-
-:host {
-    --background-color: black !important;
-}
-body {
-    color: rgb(37, 54, 206);
-    background: #191D32 !important;
-}
-
-#left-menu {
-    background: #474747 !important;
-    color:aquamarine !important;
-}
-
-#ul {
-    background: rgb(44, 44, 44) !important;
-}
-
-div {
-    background: rgb(44, 44, 44) !important;
-    color: #ffffff !important;
-}
+.NaSkroty { 
+    background: #282f44 !important;
+} /* Menu boczne: Na skróty  */
 
 section {
-    background: #292929 !important;
-}
+    background: #292929;
+    color: white;
+} /* Box z informacjami tekstowymi w menu głównym */
 
-.NaSkroty {
-    background: #282f44 !important;
+div {
+    background: rgb(0, 0, 0); /* kolor tła samego tekstu */
 }
